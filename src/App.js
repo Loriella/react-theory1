@@ -17,6 +17,9 @@ class App extends Component {
             <li>
               <a href="/about">About</a>
             </li>
+            <li>
+              <a href="/cars">Cars</a>
+            </li>
           </ul>
         </nav>
 
@@ -24,10 +27,9 @@ class App extends Component {
 
         {/*localhost:3000*/}
         <Route path="/" exact render={() => <h1>Home Page</h1>}/>
+        <Route path="/about" component={About}/>
+        <Route path="/cars" component={Cars}/>
 
-        <About />
-
-        <Cars />
       </div>
     );
   }
