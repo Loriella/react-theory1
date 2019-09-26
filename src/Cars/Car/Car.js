@@ -1,5 +1,5 @@
-import React from 'react'
-import './Car.scss'
+import React from 'react';
+import './Car.scss';
 
 
 const Car = props => {

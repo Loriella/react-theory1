@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import Car from './Car/Car'
+import React, {Component} from 'react';
+import Car from './Car/Car';
 
 export default class Cars extends Component {
   state = {
